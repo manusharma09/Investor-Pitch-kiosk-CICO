@@ -3,16 +3,420 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kiosk Investor Pitch</title>
+<title>Toshani Digital | Smart Banking Kiosk Investor Pitch</title>
+
 <style>
-body{margin:0;font-family:Arial,sans-serif;background:#0b1020;color:#fff}header{padding:90px 20px;text-align:center;background:linear-gradient(135deg,#0ea5e9,#1d4ed8)}h1{font-size:56px;margin:0}p{max-width:800px;margin:15px auto;line-height:1.6}.btn{display:inline-block;padding:14px 28px;background:#facc15;color:#111;text-decoration:none;border-radius:8px;font-weight:bold}section{padding:70px 20px;max-width:1200px;margin:auto}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}.card{background:#111827;padding:24px;border-radius:18px;box-shadow:0 10px 25px rgba(0,0,0,.25)}h2{text-align:center;font-size:38px;color:#38bdf8}table{width:100%;border-collapse:collapse;background:#111827;border-radius:12px;overflow:hidden}td,th{padding:14px;border:1px solid #243047;text-align:center}th{background:#1d4ed8}footer{text-align:center;padding:30px;color:#94a3b8}@media(max-width:700px){h1{font-size:38px}}
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#0b1120;
+color:#ffffff;
+line-height:1.6;
+}
+
+header{
+background:linear-gradient(135deg,#0ea5e9,#1d4ed8,#312e81);
+padding:90px 20px;
+text-align:center;
+}
+
+header h1{
+font-size:60px;
+margin-bottom:15px;
+}
+
+header p{
+font-size:24px;
+max-width:900px;
+margin:auto;
+opacity:0.95;
+}
+
+.btn{
+display:inline-block;
+margin-top:25px;
+padding:14px 30px;
+background:#facc15;
+color:#111827;
+font-weight:bold;
+text-decoration:none;
+border-radius:10px;
+transition:0.3s;
+}
+
+.btn:hover{
+transform:scale(1.05);
+}
+
+nav{
+position:sticky;
+top:0;
+background:#111827;
+padding:15px;
+text-align:center;
+z-index:999;
+box-shadow:0 4px 10px rgba(0,0,0,0.3);
+}
+
+nav a{
+color:#fff;
+text-decoration:none;
+margin:0 15px;
+font-weight:bold;
+font-size:15px;
+}
+
+nav a:hover{
+color:#38bdf8;
+}
+
+section{
+padding:70px 20px;
+max-width:1300px;
+margin:auto;
+}
+
+h2{
+font-size:42px;
+text-align:center;
+margin-bottom:35px;
+color:#38bdf8;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:#111827;
+padding:25px;
+border-radius:18px;
+transition:0.3s;
+box-shadow:0 8px 18px rgba(0,0,0,0.25);
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 12px 25px rgba(0,0,0,0.35);
+}
+
+.highlight{
+color:#facc15;
+font-weight:bold;
+}
+
+.stats{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+text-align:center;
+}
+
+.stat-box{
+background:#1e293b;
+padding:30px;
+border-radius:18px;
+}
+
+.stat-box h3{
+font-size:40px;
+color:#38bdf8;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:20px;
+background:#111827;
+overflow:hidden;
+border-radius:12px;
+}
+
+table th, table td{
+border:1px solid #334155;
+padding:14px;
+text-align:center;
+}
+
+table th{
+background:#1d4ed8;
+}
+
+.timeline{
+border-left:4px solid #38bdf8;
+padding-left:25px;
+}
+
+.timeline div{
+margin-bottom:25px;
+}
+
+footer{
+background:#111827;
+padding:30px;
+text-align:center;
+color:#94a3b8;
+margin-top:40px;
+}
+
+@media(max-width:768px){
+header h1{
+font-size:38px;
+}
+header p{
+font-size:18px;
+}
+h2{
+font-size:30px;
+}
+nav a{
+display:block;
+margin:10px 0;
+}
+}
 </style>
 </head>
+
 <body>
-<header><h1>Smart Banking Kiosk</h1><p>Investor Pitch • Cash Deposit • Cash Withdrawal • AEPS • Fund Transfer</p><a class='btn' href='#funding'>Invest Now</a></header>
-<section><h2>Why Now</h2><div class='grid'><div class='card'>Massive underserved rural banking demand</div><div class='card'>High ATM replacement opportunity</div><div class='card'>Financial inclusion growth</div><div class='card'>Recurring transaction revenue</div></div></section>
-<section><h2>Business Model</h2><div class='grid'><div class='card'>Withdrawal fees</div><div class='card'>Deposit fees</div><div class='card'>AEPS commissions</div><div class='card'>Ad revenue</div></div></section>
-<section><h2>Unit Economics</h2><table><tr><th>Metric</th><th>Value</th></tr><tr><td>Setup Cost</td><td>₹7 Lakhs</td></tr><tr><td>Monthly Revenue</td><td>₹53,000+</td></tr><tr><td>ROI</td><td>14-18 Months</td></tr></table></section>
-<section id='funding'><h2>Funding Ask</h2><div class='grid'><div class='card'>Seeking ₹10 Crore</div><div class='card'>Manufacturing</div><div class='card'>Tech Platform</div><div class='card'>National Expansion</div></div></section>
-<footer>© 2026 Toshani Digital</footer>
-</body></html>
+
+<header>
+<h1>Toshani Digital</h1>
+<p>India's Next Generation Smart Banking Kiosk Network</p>
+<p>Cash Deposit • Cash Withdrawal • AEPS • Money Transfer • Financial Inclusion</p>
+<a href="#funding" class="btn">Investor Opportunity</a>
+</header>
+
+<nav>
+<a href="#problem">Problem</a>
+<a href="#solution">Solution</a>
+<a href="#market">Market</a>
+<a href="#revenue">Revenue</a>
+<a href="#economics">Economics</a>
+<a href="#growth">Growth</a>
+<a href="#funding">Funding</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="problem">
+<h2>Market Problems</h2>
+<div class="grid">
+<div class="card">Rural areas lack banking branches.</div>
+<div class="card">ATM only supports withdrawals.</div>
+<div class="card">No nearby deposit options.</div>
+<div class="card">Long bank queues waste time.</div>
+<div class="card">Banks face high branch setup cost.</div>
+<div class="card">Millions need remittance access.</div>
+</div>
+</section>
+
+<section id="solution">
+<h2>Our Smart Kiosk Solution</h2>
+<div class="grid">
+<div class="card">💸 Cash Withdrawal</div>
+<div class="card">🏦 Cash Deposit</div>
+<div class="card">🆔 Aadhaar AEPS Banking</div>
+<div class="card">📲 Fund Transfer</div>
+<div class="card">📄 Mini Statement</div>
+<div class="card">💡 Utility Payments</div>
+<div class="card">🔐 Biometric + OTP Security</div>
+<div class="card">🕒 24x7 Self Service</div>
+</div>
+</section>
+
+<section id="market">
+<h2>Massive Market Opportunity</h2>
+
+<div class="stats">
+<div class="stat-box">
+<h3>6L+</h3>
+<p>Villages in India</p>
+</div>
+
+<div class="stat-box">
+<h3>12Cr+</h3>
+<p>Migrant Workers</p>
+</div>
+
+<div class="stat-box">
+<h3>3Cr+</h3>
+<p>Small Merchants</p>
+</div>
+
+<div class="stat-box">
+<h3>24x7</h3>
+<p>Demand for Banking Access</p>
+</div>
+</div>
+
+</section>
+
+<section id="revenue">
+<h2>Revenue Streams</h2>
+
+<div class="grid">
+<div class="card">Cash Withdrawal Fee Income</div>
+<div class="card">Cash Deposit Charges</div>
+<div class="card">Money Transfer Commission</div>
+<div class="card">AEPS Commission</div>
+<div class="card">Merchant Subscription Fee</div>
+<div class="card">Digital Screen Ads Revenue</div>
+<div class="card">White Label Banking Partnerships</div>
+<div class="card">Service Contracts</div>
+</div>
+
+</section>
+
+<section id="economics">
+<h2>Unit Economics</h2>
+
+<table>
+<tr>
+<th>Particular</th>
+<th>Amount</th>
+</tr>
+
+<tr>
+<td>Machine Cost</td>
+<td>₹4.5 Lakhs</td>
+</tr>
+
+<tr>
+<td>Interior / Branding / Setup</td>
+<td>₹1.5 Lakhs</td>
+</tr>
+
+<tr>
+<td>Operations / Cash / Misc</td>
+<td>₹1 Lakhs</td>
+</tr>
+
+<tr>
+<td><b>Total Cost</b></td>
+<td><b>₹7 Lakhs</b></td>
+</tr>
+</table>
+
+<br><br>
+
+<table>
+<tr>
+<th>Monthly Revenue</th>
+<th>Amount</th>
+</tr>
+
+<tr>
+<td>Transaction Income</td>
+<td>₹35,000</td>
+</tr>
+
+<tr>
+<td>Ads Revenue</td>
+<td>₹10,000</td>
+</tr>
+
+<tr>
+<td>Service Income</td>
+<td>₹8,000</td>
+</tr>
+
+<tr>
+<td><b>Total</b></td>
+<td><b>₹53,000+</b></td>
+</tr>
+</table>
+
+<p style="text-align:center; margin-top:20px; font-size:24px;" class="highlight">
+ROI in 14 - 18 Months
+</p>
+
+</section>
+
+<section id="growth">
+<h2>Expansion Roadmap</h2>
+
+<div class="timeline">
+
+<div>
+<h3>Year 1</h3>
+<p>Deploy <span class="highlight">250 Kiosks</span> across key cities and rural markets.</p>
+</div>
+
+<div>
+<h3>Year 2</h3>
+<p>Expand to <span class="highlight">1,000 Kiosks</span> with banking tie-ups.</p>
+</div>
+
+<div>
+<h3>Year 3</h3>
+<p>Scale to <span class="highlight">5,000+ Kiosks</span> PAN India.</p>
+</div>
+
+<div>
+<h3>Year 5</h3>
+<p>Become India’s largest assisted banking kiosk network.</p>
+</div>
+
+</div>
+</section>
+
+<section id="funding">
+<h2>Funding Ask</h2>
+
+<div class="grid">
+<div class="card">Seeking <span class="highlight">₹10 Crore</span> Growth Capital</div>
+<div class="card">Manufacturing & Procurement</div>
+<div class="card">Technology Platform</div>
+<div class="card">Operations Team Hiring</div>
+<div class="card">Compliance & Security</div>
+<div class="card">Marketing & National Expansion</div>
+</div>
+
+</section>
+
+<section>
+<h2>Why Investors Win</h2>
+
+<div class="grid">
+<div class="card">Recurring Monthly Revenue</div>
+<div class="card">Large Untapped Market</div>
+<div class="card">High Scale Potential</div>
+<div class="card">Strong Fintech Valuation Multiples</div>
+<div class="card">Social Impact + Profitability</div>
+<div class="card">Acquisition Exit Opportunity</div>
+</div>
+
+</section>
+
+<section id="contact">
+<h2>Contact Us</h2>
+
+<div class="grid">
+<div class="card">
+<h3>Toshani Digital</h3>
+<p>Email: info@toshanidigital.com</p>
+<p>Website: toshanidigital.com</p>
+<p>Mumbai, India</p>
+</div>
+
+<div class="card">
+<h3>Let's Build Together</h3>
+<p>Partner with us to transform banking access across India.</p>
+</div>
+</div>
+
+</section>
+
+<footer>
+© 2026 Toshani Digital | Smart Banking Kiosk Investor Pitch
+</footer>
+
+</body>
+</html>
